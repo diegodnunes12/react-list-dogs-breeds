@@ -12,3 +12,8 @@ export const Title = styled.h1`
   color: #BF4F74;
   padding: 10px;
 `;
+
+export const Section = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+`;
