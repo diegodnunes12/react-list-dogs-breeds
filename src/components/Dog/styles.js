@@ -7,6 +7,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const Image = styled.img`
@@ -17,4 +21,5 @@ export const Image = styled.img`
 
 export const Name = styled.h2`
   display: block;
+  color: #fafafa;
 `;
